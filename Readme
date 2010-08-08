@@ -1,3 +1,9 @@
+=Use=
+
+If your document is confidential, a disclaimer can be activated in the title.tex page. Uncomment the corresponding lines.
+
+=Compilation=
+
 Generate PDF using PDFLatex
 
 To use BibTex:
