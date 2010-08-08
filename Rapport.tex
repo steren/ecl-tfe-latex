@@ -1,0 +1,55 @@
+% Modle pour rapport de Travail de Fin d'Etudes de l'Ecole Centrale de Lyon
+% version 0.1
+% 2009-07-24
+% par Steren Giannini (steren.giannini@gmail.com)
+% Ce modèle est mis  disposition selon le Contrat "Creative Commons Paternité-Partage des Conditions Initiales  l'Identique 3.0 Unported"
+% http://creativecommons.org/licenses/by/3.0/
+
+\documentclass[12pt,a4paper]{article}
+\input{style/packages.tex}
+
+% Comment utiliser : 
+% - la page de titre est à personnaliser (title/title.tex)
+% - le contenu est à rédiger dans le répertoire pages/, s'inspirer des exemples présents dans ce modèle.
+% - les annexes sont à rédiger dans le répertoire appendix/
+% - la bibliographie utilise BibTex (fichier biblio.bib)
+% - les variables suivantes sont à remplir :
+\newcommand{\TitreRapport}{Titre du TFE}
+\newcommand{\DateRapport}{2009}
+\newcommand{\AuteurRapport}{Prénom Nom}
+\newcommand{\NomEntreprise}{Nom Entreprise}
+
+\input{style/style.tex}
+\input{title/title.tex}
+
+\begin{document}
+\pagestyle{fancy}
+
+\maketitle
+		\newpage
+\input{body/pages/remerciements.tex}
+		\newpage
+\input{body/pages/abstract-fr.tex}
+		\newpage
+\input{body/pages/abstract-en.tex}
+		\newpage
+\tableofcontents
+        \newpage
+\listoffigures
+\listoftables
+		\newpage
+\input{body/pages/introduction.tex}
+        \newpage
+\input{body/pages/titre1/titre1.tex}
+        \newpage
+\input{body/pages/titre2/titre2.tex}
+		\newpage
+\input{body/pages/conclusion.tex}
+		\newpage
+\bibliographystyle{unsrt}
+\bibliography{biblio} 
+		\newpage
+\appendix
+\input{appendix/titreA.tex}
+
+\end{document}
