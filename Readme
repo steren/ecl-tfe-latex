@@ -1,0 +1,7 @@
+Generate PDF using PDFLatex
+
+To use BibTex:
+* compile your .tex, this will generate a .aux
+* run $bibtex Rapport.aux, this will generate .bbl files
+* recompile your .tex, bibliography should be fine
+
