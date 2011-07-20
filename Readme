@@ -1,3 +1,9 @@
+Ecole Centrale Lyon ask students to produce their internship reports using given templates.
+
+Unfortunately, the school didn't provide a LaTeX template, so here is one. This project is aimed at keeping it up to date and making it better. Everyone can contribute.
+
+If you want to contribute, describe an issue in the "Issues" tab, and attach some code to solve it.
+
 =Use=
 
 If your document is confidential, a disclaimer can be activated in the title.tex page. Uncomment the corresponding lines.
